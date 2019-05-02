@@ -1,0 +1,234 @@
+* {
+  font-family: "Calibri", Helvetica, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+  position: static !important;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  position: static;
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.city-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  overflow: hidden;
+}
+
+.city-gridlist {
+  flex-wrap: nowrap !important;
+  transform: translateZ(0);
+}
+
+.image-container{
+  width: 98vw;
+  height: auto;
+}
+
+.front {
+  z-index: 10;
+}
+
+a:link, a:visited{
+  color: black;
+  text-decoration: none;
+}
+
+.welcome-text {
+  position: absolute;
+  top: 70%;
+  left: 48%;
+  margin: 1em;
+  padding: 1em;
+  width: 80%;
+  height: auto;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0,0,0, 0.3) !important;
+  color: white;
+}
+
+.welcome-text h1 {
+  text-align: center;
+  font-family: "Calibri", Helvetica, sans-serif;
+}
+
+.welcome-text p {
+  font-size: 1.0em;
+  font-family: "Calibri", Helvetica, sans-serif;
+}
+
+.benefittitle-text{
+  font-size: 1.0em;
+  font-family: "Calibri", Helvetica, sans-serif;
+}
+
+.benefit-text h1{
+  margin: 0em 4em;
+  font-family: "Calibri", Helvetica, sans-serif;
+  color: lightcoral;
+  font-size: 1.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: center;
+}
+
+.benefit-text p{
+  margin: 0em 4em;
+  font-family: "Calibri", Helvetica, sans-serif;
+  font-size: 1.0em;
+}
+
+.benefit-text ol{
+  margin: 0em 3em;
+  font-family: "Calibri", Helvetica, sans-serif;
+  font-size: 1.0em;
+  padding-top: 0.2em;
+  padding-bottom: 1em;
+  padding-left: 6em;
+  padding-right: 2em;
+}
+
+.testimonial-text h1{
+  font-family: "Calibri", Helvetica, sans-serif;
+  font-size: 1.0em;
+  color: lightcoral;
+  margin:0em 0em;
+  padding-top: 0.5em;
+  padding-bottom: 0.2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: center;
+}
+
+.testimonial-text p{
+  font-family: "Calibri", Helvetica, sans-serif;
+  font-size: 0.75em;
+  margin:0.5em 0em;
+  padding-top: 0.2em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.photos-text{
+  padding-top: 2em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.contact-text {
+  margin: 3em 4em;
+  font-family: "Calibri", Helvetica, sans-serif;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.contact-link{
+  color: blue !important;
+}
+
+.passportphoto-size {
+  width: 80%;
+  height: 80%;
+}
+
+.arrow-size{
+  width:50%;
+  height:50%;
+  padding-bottom: 2em;
+  padding-left: 4em;
+}
+
+.info-link{
+  color: lightcoral !important;
+  padding-left: 3em;
+}
+
+.study-text h1{
+  font-family: "Calibri", Helvetica, sans-serif;
+  font-size: 1.5em;
+  color: lightcoral;
+  margin:0em 0em;
+  padding-top: 0.5em;
+  padding-bottom: 0.2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: center;
+}
+
+.study-text p{
+  font-family: "Calibri", Helvetica, sans-serif;
+  font-size: 1em;
+  margin:0.5em 0em;
+  padding-top: 0.2em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.study-text ol{
+  margin: 0em 3em;
+  font-family: "Calibri", Helvetica, sans-serif;
+  font-size: 1.0em;
+  padding-top: 0.2em;
+  padding-bottom: 1em;
+}
+
+.study-text h2{
+  font-family: "Calibri", Helvetica, sans-serif;
+  font-size: 1.5em;
+  color: lightcoral;
+  margin:0em 0em;
+  padding-top: 0.5em;
+  padding-bottom: 0.2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: center;
+}
+
+.study-text h3{
+  font-family: "Calibri", Helvetica, sans-serif;
+  font-size: 1em;
+  color: darkmagenta;
+  margin:0em 0em;
+  padding-top: 0.5em;
+  padding-bottom: 0.2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: center;
+}
