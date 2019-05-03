@@ -82,7 +82,7 @@ import modernchina from "./img/whychina/modernchina.jpg";
                                     <p>
                                         "Take Chinese Creativity Seriously or Lose Out"
                                     </p>
-                                    <a href='./FT-ChineseCreaticity.doc' download className="contact-link">to read the article</a>
+                                    <a href="./img/whychina/FT-ChineseCreaticity.doc" download className="contact-link">to read the article</a>
                                 </Typography>
                             </ExpansionPanelDetails>
                         </ExpansionPanel>
