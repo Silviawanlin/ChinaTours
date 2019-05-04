@@ -20,7 +20,7 @@ class CityGrid extends Component {
       <div className="city-container">
         <GridList className="city-gridlist" cols={3}>
           <GridListTile>
-            <img src={bingmy}  />
+            <img src={bingmy} />
             <GridListTileBar title="Xi'an" />
           </GridListTile>
           <GridListTile>
