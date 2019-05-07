@@ -14,8 +14,8 @@ import modernchina from "./img/whychina/modernchina.jpg";
           return(
             <div>
                 <h1 style={{"textAlign": "center"}}>Why China</h1>
-                <Grid container justify-content="center">
-                    <Grid item sm={6} md={6} lg={6} container alignContent="center" justify="space-around">
+                <Grid container justify="flex-start">
+                    <Grid item sm={7} md={7} lg={7} container direction="column" alignContent="center" justify="space-around">
                         <Grid item>
                         <img src={modernchina}/>
                         </Grid>
